@@ -97,6 +97,8 @@ var getMediaAccess = function () {
     };
 
     var errorFn = function (error) {
+        console.error(error);
+
         _mediaState.mediaAccessState = MediaConstants.MediaAccessState.ERROR;
         MediaStore.emitChange();
     };
