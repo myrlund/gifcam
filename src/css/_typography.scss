@@ -1,0 +1,31 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+$body-font-family: OpenSans, sans-serif;
+$body-font-size: 87.5%;
+$body-font-weight: 400;
+$body-font: $body-font-weight $body-font-size $body-font-family;
+
+body {
+  font: $body-font;
+  line-height: 1.1;
+}
+
+$heading-font-family: OpenSans, sans-serif;
+$heading-font-weight: 300;
+
+h1, h2, h3, h4 {
+  font-family: $heading-font-family;
+  font-weight: $heading-font-weight;
+  margin-bottom: .6em;
+}
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2em;
+}
+
+$control-font-family: OpenSans, sans-serif;
+$control-font-weight: 300;
+$control-font: $control-font-weight 1rem $control-font-family;
